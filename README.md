@@ -97,5 +97,12 @@ Todo App/
 Contributions are welcome! Please open an issue or submit a pull request.
 
 ## License
+This project is licensed under the [MIT License](LICENSE).
 
-This project is licensed under the MIT License.
+---
+
+## Author
+**DevAdvancer**
+
+- GitHub: [@DevAdvancer](https://github.com/DevAdvancer)
+- LinkedIn: [@Abhirup Kumar](https://www.linkedin.com/in/abhirupkumar)
