@@ -2,11 +2,15 @@ from flask import Flask, request, jsonify
 from bson.objectid import ObjectId
 import pymongo
 from flask_cors import CORS
+from dotenv import load_dotenv
+import os
 
 app = Flask(__name__)
 CORS(app)
 
-mongo = pymongo.MongoClient('mongodb://localhost:27017/')
+load_dotenv()
+mongo_url = os.getenv("MONGO_URL")
+mongo = pymongo.MongoClient(mongo_url)
 db = mongo["todo"]
 collection = db["todos"]
 
