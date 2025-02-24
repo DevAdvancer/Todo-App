@@ -40,4 +40,4 @@ def delete_todo(id):
     return jsonify({"message": "Todo deleted"})
 
 if __name__ == "__main__":
-    app.run(PORT=4000)
+    app.run(port=4000)
